@@ -19,11 +19,11 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '梦梦宝贝',
+      name: '梦梦',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oLR826nbhHyKyemvScjN7Pq5a_dU',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'sEKGHz6tuxoOSyAGTRVzbOs4-7KVQVGb87QQ4uPL1-0',
+      useTemplateId: '2hTSeOaBVmctH4uF0Zt34aMETdg29E0D_nSyOpor3bg',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '01-04',
       festivals: [
@@ -51,13 +51,13 @@ const USER_CONFIG = {
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: '',
+  CALLBACK_TEMPLATE_ID: '2hTSeOaBVmctH4uF0Zt34aMETdg29E0D_nSyOpor3bg',
 
   CALLBACK_USERS: [
     {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'oLR826nbhHyKyemvScjN7Pq5a_dU',
     }
   ],
 
