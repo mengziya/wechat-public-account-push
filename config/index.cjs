@@ -8,32 +8,32 @@
 const USER_CONFIG = {
 
   // 使用微信测试号：公众号APP_ID
-  APP_ID: '',
+  APP_ID: 'wxbf445b54658b0dbc',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '',
+  APP_SECRET: '7fe619dc6a8517c0bf9e55cdd238bd9a',
 
-  PROVINCE: '广东',
-  CITY: '惠州',
+  PROVINCE: '江西',
+  CITY: '南昌',
 
   USERS: [
     {
       // 想要发送的人的名字
-      name: '宝贝',
+      name: '梦梦宝贝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'oLR826nbhHyKyemvScjN7Pq5a_dU',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '',
+      useTemplateId: 'sEKGHz6tuxoOSyAGTRVzbOs4-7KVQVGb87QQ4uPL1-0',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '12-27',
+      horoscopeDate: '01-04',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '宝贝', year: '1996', date: '09-09',
+          type: '*生日', name: '梦梦', year: '1998', date: '11-17',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '李四', year: '1996', date: '09-31',
+          type: '生日', name: '梦梦', year: '1999', date: '01-04',
         },
         {
           type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
