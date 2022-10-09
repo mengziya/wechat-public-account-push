@@ -35,6 +35,7 @@ const USER_CONFIG = {
         {
           type: '生日', name: '梦梦的阳历生日', year: '1999', date: '01-04',
         },
+      ],
     },
   ],
 
