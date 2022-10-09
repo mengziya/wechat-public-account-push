@@ -24,6 +24,8 @@ const USER_CONFIG = {
       id: 'oLR826nbhHyKyemvScjN7Pq5a_dU',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'bymN5Vo-Ol1d4hEwYNK1hCFVhX7PLcOsOuVWnJ1F9t4',
+      // 和风天气apikey
+      weather_key: '417454abc2f74e1a8fa97e1f42fdd2e3',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '01-04',
       festivals: [
